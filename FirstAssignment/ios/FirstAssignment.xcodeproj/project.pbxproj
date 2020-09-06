@@ -20,6 +20,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BDE777CFB6DF953893BF0D7D /* libPods-FirstAssignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A9428D83285F947ACABFD7 /* libPods-FirstAssignment.a */; };
 		DE75136BE26AD4D03ED90D27 /* libPods-FirstAssignment-FirstAssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 775F138A5C81088C16F74545 /* libPods-FirstAssignment-FirstAssignmentTests.a */; };
+		00DAA02AC8EA42F2A478C555 /* Allura-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7837AF6A50394EF2BF3D952B /* Allura-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EDD86AB004F57395A2CF818B /* Pods-FirstAssignment-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstAssignment-tvOS.release.xcconfig"; path = "Target Support Files/Pods-FirstAssignment-tvOS/Pods-FirstAssignment-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		F508499B109C4F1D995B0605 /* Pods-FirstAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstAssignment.release.xcconfig"; path = "Target Support Files/Pods-FirstAssignment/Pods-FirstAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		7837AF6A50394EF2BF3D952B /* Allura-Regular.ttf */ = {isa = PBXFileReference; name = "Allura-Regular.ttf"; path = "../src/assets/fonts/Allura-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A8FCB05AA36212CC4E469B40 /* Pods */,
+				CDEE81A64D214DFF8A398E67 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +200,15 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		CDEE81A64D214DFF8A398E67 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				7837AF6A50394EF2BF3D952B /* Allura-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -342,6 +354,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				00DAA02AC8EA42F2A478C555 /* Allura-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
